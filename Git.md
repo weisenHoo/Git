@@ -80,6 +80,11 @@ alias go="git checkout"
 ###推到远程
 >- 推送：git push
 
+###关联github
+>- 关联：git remote add origin git@github.com:weisenHoo/test.git
+>- 取消关联：git remote remove origin
+>- 推送：git push -u origin master
+
 ###修改配置
 >- git config --global user.name "weisen"
 >- git config --global user.email "306429737@qq.com"
@@ -88,3 +93,6 @@ alias go="git checkout"
 
 ###克隆项目
 >- git clone https://github.com/houdunwang/cart.git
+
+###删除缓存数据
+>- 查找 known_hosts 文件，删除文件里的内容
