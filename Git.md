@@ -48,6 +48,7 @@ alias go="git checkout"
 
 ###分支
 >- 查看分支：git branch
+>- 查看远程分支：git branch -a
 >- 创建分支：git branch name
 >- 切换分支：git checkout name
 >- 创建分支并切换：git checkout -b name
