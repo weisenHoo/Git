@@ -9,6 +9,7 @@
 >- -> 保存：w
 >- -> 退出：q
 >- 查看文件内容：cat <file>
+
 ###使用系统别名定义git全局指令
 >- 修改：.bash_profile文件(路径：'/User/.bash_profile')
 ```
@@ -19,6 +20,7 @@ alias gb="git branch"
 alias ga="git add ."
 alias go="git checkout"
 ```
+
 #Git命令
 >- 初始化：git init
 >- 查看文件状态：git status
@@ -27,12 +29,15 @@ alias go="git checkout"
 >- 从版本库中移除文件：git rm --cached <file>
 >- 修改文件名字：git mv <file> <file>
 >- 文件 .gitignore ：排除不需要推送的文件
+
 ###撤销
 >- 撤销：git rm --cached <file>
 >- 撤回：git checkout -- <file>
+
 ###提交
 >- 推送到版本库：git commit -m '日志'
 >- 修改推送描述：git commit -amend
+
 ###日志
 >- 查看日志信息：git log
 >- 查看变动信息：git log -p
@@ -40,6 +45,7 @@ alias go="git checkout"
 >- 查看精简变动信息：git log --oneline -p
 >- 查看文件变化信息：git log --name-only
 >- 查看文件变化类型信息：git log --name-status
+
 ###分支
 >- 查看分支：git branch
 >- 创建分支：git branch name
@@ -50,6 +56,7 @@ alias go="git checkout"
 >- 强制删除分支：git branch -D name (慎用)
 >- 查看已经合并的分支：git branch --merged
 >- 查看没有合并的分支：git branch --no-merged
+
 ###临时储存
 >- 临时储存：git stash
 >- 查看暂存区文件列表：git stash list
@@ -57,16 +64,21 @@ alias go="git checkout"
 >- 删除暂存区文件：git stash drop stash@{0}
 >- 恢复并删除暂存文件：git stash pop
 >- 恢复单个暂存文件：git stash apply stash@{1}
+
 ###添加标签
 >- 添加标签：git tag v1.0
+
 ###打包生成压缩文件
 >- 压缩：git archive master --prefix='hdcms/' --forma=zip > hdcms.zip
+
 ###移动分支节点
 >- 移动主分支节点：git rebase master
+
 ###修改配置
 >- git config --global user.name "weisen"
 >- git config --global user.email "306429737@qq.com"
 >- git config --global alias.a add
 >- 注：--global 设为全局
+
 ###克隆项目
 >- git clone https://github.com/houdunwang/cart.git
