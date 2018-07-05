@@ -74,6 +74,12 @@ alias go="git checkout"
 ###移动分支节点
 >- 移动主分支节点：git rebase master
 
+###生成SSH秘钥
+>- 生成秘钥：ssh-keygen -t rsa
+
+###推到远程
+>- 推送：git push
+
 ###修改配置
 >- git config --global user.name "weisen"
 >- git config --global user.email "306429737@qq.com"
